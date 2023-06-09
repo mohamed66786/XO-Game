@@ -1,0 +1,32 @@
+.display{
+    background-color: black;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+}
+.content{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    background-color: gray;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}
+.content h1{
+    display: grid;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-weight: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.content h1:hover{
+    background-color: rgb(22, 20, 20);
+}
